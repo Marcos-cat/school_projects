@@ -62,7 +62,7 @@ When writing programs in Uiua, Point-free programming produces algorithms that a
 
 ## Context/Evidence
 
-First, a clarification of what Point-free really means. Point-free code is defined as code that does not specify what inputs it will take. Plain and simple. The essence of Point-free programming is thinking about general transformations rather that specific ones. An easy example is the Pythagorean theorem in Uiua. The code looks like this:
+First, a clarification of what Point-free really means. Point-free code is defined as code that does not specify what inputs it will take. Plain and simple. The essence of Point-free programming is thinking about general transformations rather than specific ones. An easy example is the Pythagorean theorem in Uiua. The code looks like this:
 
 ```uiua
 √+∩(×.) 3 4
@@ -72,11 +72,11 @@ This would output the number five, as the hypotenuse of a triangle with legs of 
 
 ## Analysis
 
-When the vast majority of your time is spent thinking about algorithms and how they affect the inputs, the method of Point-free programming allows the algorithms to be separated from their inputs, which removes and extra complication from the mental process of deciphering what a bit of code does.
+When the vast majority of your time is spent thinking about algorithms and how they affect the inputs, the method of Point-free programming allows the algorithms to be separated from their inputs, which removes an extra complication from the mental process of deciphering what a bit of code does.
 
 ## Conclusion Sentence
 
-Allowing for programmers to more easily reason about code, Point-free is a value and beneficial technique.
+Allowing programmers to more easily reason about code, Point-free is a valuable and beneficial technique.
 
 ---
 
