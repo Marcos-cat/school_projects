@@ -28,7 +28,7 @@ Languages that use glyphs allow for more concise programs.
 
 ## Context/Evidence
 
-Take the example of a simple sum function. In a language like python you might solve the problem via importing a library like `numpy`, and using its built-in sum function. The code to do that might look something like this:
+Take the example of a simple sum function. In a language like Python you might solve the problem via importing a library like `numpy`, and using its built-in sum function. The code to do that might look something like this:
     
 ```python
 import numpy as np 
@@ -36,7 +36,7 @@ import numpy as np
 np.sum([1, 2, 3])
 ```
 
-The above solution is about as simple as it can get for python, and for other languages as well. But take a look at the solution Uiua provides:
+The above solution is about as simple as it can get for Python, and for other languages as well. But take a look at the solution Uiua provides:
 
 ```uiua
 /+ [1 2 3]
