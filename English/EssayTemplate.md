@@ -88,7 +88,7 @@ Uiua's extensive system of Rank-polymorphism removes mental overhead from the pr
 
 ## Context/Evidence
 
-So, what IS Rank-polymorphism? Although it sounds big and complex, the word can be split in two. Rank is just a fancy way of describing how many dimensions an array has. For example a number is Rank 0, a vector (or list) is Rank 1, and a matrix is Rank 2. Polymorphism is the principle that a function changes slightly depending on it's input. Put the two together and the meaning becomes "a function that changes its behavior depending on the Rank of the inputs." An example of a function with this behavior is the addition function from earlier. In the following example the output will be five, as expected.
+So, what IS Rank-polymorphism? Although it sounds big and complex, the word can be split in two. Rank is just a fancy way of describing how many dimensions an array has. For example a number is Rank 0, a vector (or list) is Rank 1, and a matrix is Rank 2. Polymorphism is the principle that a function changes slightly depending on its input. Put the two together and the meaning becomes "a function that changes its behavior depending on the Rank of the inputs." An example of a function with this behavior is the addition function from earlier. In the following example, the output will be five, as expected.
 
 ```uiua
 + 3 2
@@ -120,7 +120,7 @@ In many different scenarios, the features that Uiua provides are beneficial for 
 
 ## Recap All Main Points
 
-Uiua is able to condense programs down for maximum efficiency by employing a wide variety of glyphs. It also enforces Point-free programming and stops you from writing functions that are too tangled and complex, forcing all code to be a simple pipeline, a mere transformation. And finally, Uiua's extensive system of Rank-polymorphism takes care of tons of redundant code that would not add any extra information.
+Uiua is able to condense programs down for maximum efficiency by employing a wide variety of glyphs. It also enforces Point-free programming and stops you from writing functions that are too tangled and complex, forcing all code to be a simple pipeline, a mere transformation. Finally, Uiua's extensive system of Rank-polymorphism takes care of tons of redundant code that would not add any extra information.
 
 ## Clincher/"Mic Drop"
 
