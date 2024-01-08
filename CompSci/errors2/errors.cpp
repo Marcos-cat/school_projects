@@ -4,17 +4,18 @@
 using namespace std;
 
 int main() {
-    double celsius, fahrenheit; // Declare two double vars for data
 
     // Prompt user for input
-    cout << endl << "Enter a temperature in Celsius : ";
+    cout << endl << "Enter a temperature in Celsius: ";
+
+    double celsius;
     cin >> celsius;
 
     // Calculate the Fahrenheit temperature
-    fahrenheit = 1.8 * celsius + 32;
+    double fahrenheit = 1.8 * celsius + 32;
 
     // Print the resulting Fahrenheit temperature
-    cout << "The Fahrenheit temperature is : " << fahrenheit << endl;
+    cout << "The Fahrenheit temperature is: " << fahrenheit << endl;
 
     return 0;
 }
