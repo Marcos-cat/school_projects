@@ -113,22 +113,6 @@ void rock_paper_scissors() {
     cout << (computer_score == WINNING_SCORE ? "The computer won!" : "You won!") << "\n";
 }
 
-enum class Grade {
-    APlus,
-    A,
-    AMinus,
-    BPlus,
-    B,
-    BMinus,
-    CPlus,
-    C,
-    CMinus,
-    DPlus,
-    D,
-    DMinus,
-    E
-};
-
 std::optional<double> classify_grade(string grade) {
     std::unordered_map<string, double> map = {
         {"A+", 4.0}, {"A", 4.0}, {"A-", 3.7}, {"B+", 3.3}, {"B", 3.0}, {"B-", 2.7},

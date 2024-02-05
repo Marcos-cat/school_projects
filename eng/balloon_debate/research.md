@@ -43,18 +43,18 @@
 # Opening Speech
 
 My name is Achyuta Samanta, and I was born in a poor village in India called
-Odisha in January 1965. I am now fifty-nine years old. At a young age, I recognized that
-education was vital for children in order to lead successful lives. Since then,
-it has been my goal to provide education to as many children as I could. I have
-founded a number of schools in my quest to educate children from tribal
-communities in India. So far, in the Kalinga Institute of Social Sciences and
-the Kalinga Institute of Industrial Technology over 115,000 children have been
-educated, 80,000 of them attended the school entirely free of cost. These
-children are now much more fit to succeed in life and in society because of this
-boost that has been given to them. My actions have been widely recognized; I
-have received over 50 national and international awards for my work in education
-My actions have been widely recognized; I have received over fifty national and
-international awards for my work in education.
+Odisha in January 1965. I am now fifty-nine years old. At a young age, I
+recognized that education was vital for children in order to lead successful
+lives. Since then, it has been my goal to provide education to as many children
+as I could. I have founded a number of schools in my quest to educate children
+from tribal communities in India. So far, in the Kalinga Institute of Social
+Sciences and the Kalinga Institute of Industrial Technology over 115,000
+children have been educated, 80,000 of them attended the school entirely free of
+cost. These children are now much more fit to succeed in life and in society
+because of this boost that has been given to them. My actions have been widely
+recognized; I have received over 50 national and international awards for my
+work in education My actions have been widely recognized; I have received over
+fifty national and international awards for my work in education.
 
 I must remain in this balloon so that I can continue educating children that are
 even less fortunate than I was. I need to continue to make the world a better
