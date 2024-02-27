@@ -6,6 +6,26 @@ using std::cout;
 using std::string;
 
 const uint MAX_INCORRECT_GUESSES = 6;
+const string HANGMAN[] = {
+    " o  \n\n\n",
+
+    " o  \n"
+    " |  \n\n",
+
+    " o  \n"
+    "-|  \n\n",
+
+    " o  \n"
+    "-|- \n\n",
+
+    " o  \n"
+    "-|- \n"
+    "/   \n",
+
+    " o  \n"
+    "-|- \n"
+    "/ \\ \n",
+};
 
 string stolower(string s) {
     string output = "";
@@ -57,12 +77,14 @@ bool print_game_state(string word, string guesses) {
 
     char last_guess = guesses.back();
     bool last_guess_was_incorrect = word.find(last_guess) == string::npos;
-    cout << board << "\n";
-
     uint incorrect_guesses = 0;
     for (char c : guesses) if (word.find(c) == string::npos) incorrect_guesses++;
 
+    if(incorrect_guesses > 0) cout << HANGMAN[incorrect_guesses-1];
+    cout << board << "\n";
+
     cout << "Incorrect Guesses: " << incorrect_guesses << "\n";
+    cout << "Guesses: " << guesses << "\n";
 
     cout << last_guess << (last_guess_was_incorrect ? " was incorrect \n" : " was correct! \n");
     return incorrect_guesses >= MAX_INCORRECT_GUESSES;
