@@ -151,9 +151,11 @@ void edit_contact() {
 
 void save_contacts() {
     std::ofstream contact_file(FILE_PATH);
-    for (auto contact : g_contacts) {
-        contact_file << stringify_contact(contact) << "\n";
+    for (int i = 0; i < g_contacts.size(); i++) {
+        contact_file << stringify_contact(g_contacts[i]);
+        if (i < g_contacts.size() - 1) contact_file << "\n";
     }
+    cout << "Contacts successfully saved to file.\n";
     contact_file.close();
 }
 
